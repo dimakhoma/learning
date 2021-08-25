@@ -5,8 +5,200 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap learning</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    Hello world 
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-lg">
+              <a class="navbar-brand" href="#"> <i>CS-GO</i> </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About us</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search guys" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section>
+        <div class="container-lg">
+            <div class="row align-items-center">
+                <div class="col-7">
+                    <h1>Welcome to CS-GO </h1>
+                </div>
+                <div class="col-5">
+                    <img class="w-100" src="https://cdn.cloudflare.steamstatic.com/steam/apps/730/capsule_616x353.jpg?t=1629301045" alt="CS-GO">
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section>
+        <div class="container-lg">
+            <h2>Our guys</h2>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row justify-content-beetwen">
+                        <div class="col">
+                            <div class="card w-100" >
+                                <img src="https://hack-strike.ru/uploads/posts/2018-01/1515980695_c7cg87qwyaajf80.jpg" class="card-img-top" alt="Markeloff">
+                                <div class="card-body">
+                                  <h5 class="card-title">Headshot</h5>
+                                  <p class="card-text">This man play CS-GO like a god</p>
+                                  <a href="#" class="btn btn-primary">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card w-100" >
+                                <img src="https://lh3.googleusercontent.com/proxy/6_qhGelkot9ppN8-fs1CCfmCgcYlmuaCDKwFmMfPTgkIFTyoMGWprELjltSU4Uw79KCDFsu4I2Kva2cuGtam012J7j7qWYII6LSWHGnn2w" class="card-img-top" alt="Zeus">
+                                <div class="card-body">
+                                  <h5 class="card-title">Headshot</h5>
+                                  <p class="card-text">This man play CS-GO like a god</p>
+                                  <a href="#" class="btn btn-primary">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card w-100" >
+                                <img src="https://i.ytimg.com/vi/AgWHp1cT5WA/maxresdefault.jpg" class="card-img-top" alt="Edward">
+                                <div class="card-body">
+                                  <h5 class="card-title">Headshot</h5>
+                                  <p class="card-text">This man play CS-GO like a god</p>
+                                  <a href="#" class="btn btn-primary">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card w-100" >
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSck1PDtN7APyK5AmEB7Txz9f8OugP1zIIRmg&usqp=CAU" class="card-img-top" alt="S1mple">
+                                <div class="card-body">
+                                  <h5 class="card-title">Headshot</h5>
+                                  <p class="card-text">This man play CS-GO like a god</p>
+                                  <a href="#" class="btn btn-primary">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item justify-content-beetwen">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card w-100" >
+                                <img src="https://hack-strike.ru/uploads/posts/2018-01/1515980695_c7cg87qwyaajf80.jpg" class="card-img-top" alt="Markeloff">
+                                <div class="card-body">
+                                  <h5 class="card-title">Headshot</h5>
+                                  <p class="card-text">This man use chlenix everyday</p>
+                                  <a href="#" class="btn btn-primary">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card w-100" >
+                                <img src="https://lh3.googleusercontent.com/proxy/6_qhGelkot9ppN8-fs1CCfmCgcYlmuaCDKwFmMfPTgkIFTyoMGWprELjltSU4Uw79KCDFsu4I2Kva2cuGtam012J7j7qWYII6LSWHGnn2w" class="card-img-top" alt="Zeus">
+                                <div class="card-body">
+                                  <h5 class="card-title">Headshot</h5>
+                                  <p class="card-text">This man use chlenix everyday</p>
+                                  <a href="#" class="btn btn-primary">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card w-100" >
+                                <img src="https://i.ytimg.com/vi/AgWHp1cT5WA/maxresdefault.jpg" class="card-img-top" alt="Edward">
+                                <div class="card-body">
+                                  <h5 class="card-title">Headshot</h5>
+                                  <p class="card-text">This man use chlenix everyday</p>
+                                  <a href="#" class="btn btn-primary">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card w-100" >
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSck1PDtN7APyK5AmEB7Txz9f8OugP1zIIRmg&usqp=CAU" class="card-img-top" alt="S1mple">
+                                <div class="card-body">
+                                  <h5 class="card-title">Headshot</h5>
+                                  <p class="card-text">This man use chlenix everyday</p>
+                                  <a href="#" class="btn btn-primary">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item justify-content-beetwen">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card w-100" >
+                                <img src="https://hack-strike.ru/uploads/posts/2018-01/1515980695_c7cg87qwyaajf80.jpg" class="card-img-top" alt="Markeloff">
+                                <div class="card-body">
+                                  <h5 class="card-title">Headshot</h5>
+                                  <p class="card-text">This man use chlenix everyday</p>
+                                  <a href="#" class="btn btn-primary">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card w-100" >
+                                <img src="https://lh3.googleusercontent.com/proxy/6_qhGelkot9ppN8-fs1CCfmCgcYlmuaCDKwFmMfPTgkIFTyoMGWprELjltSU4Uw79KCDFsu4I2Kva2cuGtam012J7j7qWYII6LSWHGnn2w" class="card-img-top" alt="Zeus">
+                                <div class="card-body">
+                                  <h5 class="card-title">Headshot</h5>
+                                  <p class="card-text">This man use chlenix everyday</p>
+                                  <a href="#" class="btn btn-primary">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card w-100" >
+                                <img src="https://i.ytimg.com/vi/AgWHp1cT5WA/maxresdefault.jpg" class="card-img-top" alt="Edward">
+                                <div class="card-body">
+                                  <h5 class="card-title">Headshot</h5>
+                                  <p class="card-text">This man use chlenix everyday</p>
+                                  <a href="#" class="btn btn-primary">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card w-100">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSck1PDtN7APyK5AmEB7Txz9f8OugP1zIIRmg&usqp=CAU" class="card-img-top" alt="S1mple">
+                                <div class="card-body">
+                                  <h5 class="card-title">Headshot</h5>
+                                  <p class="card-text">This man use chlenix everyday</p>
+                                  <a href="#" class="btn btn-primary">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        
+    </section>
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </body>
-</html>
+</html> 
